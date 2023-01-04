@@ -27,6 +27,9 @@ telegram
 
 實作過程
 ---------------
+天氣預報
+報時
+猜數字
 
 使用方法
 ---------------
@@ -45,3 +48,4 @@ telegram
 Reference
 ---------------
 
+https://opendata.cwb.gov.tw/index
