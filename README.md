@@ -23,21 +23,24 @@
 |      DHT22        |  1   |  冠鈞  |
 
 
-python
-telegram
+安裝模組指令
+---------------
 * 以下指令請在虛擬機上執行
 * (tlelgram bot，不確定有沒有漏)\
+```
 sudo apt install python\
 sudo apt install git\
 sudo apt install make\
 git clone https://github.com/pyenv/pyenv.git ~/.pyenv
+```
 * (聲控環境，不確定有沒有漏)
+```
 pip3 install SpeechRecognition\
 pip install gtts\
 pip install googletrans==3.1.0a0\
 pip install pygame\
 pip install pyaudio
-
+```
 
 實作過程
 ---------------
@@ -101,6 +104,7 @@ pip install pyaudio
 7.原本想讓樹梅派跑的BOT程式碼不能在樹莓派上跑，絕望找方法 \
 8.程式碼在樹莓派上不能複製，好絕望 \
 \
+
 分工表
 ---------------
 * 陳彥豪 爆肝
