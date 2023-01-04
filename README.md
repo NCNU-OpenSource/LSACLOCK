@@ -1,4 +1,4 @@
-睿智縫合鬧鐘 (unfinish)
+睿智縫合鬧鐘
 ===============
 
 動機與目的
@@ -61,29 +61,8 @@ pip install pyaudio
     https://telegram.me/getidsbot \
     5.申辦openai帳號並取得openai key\
     https://beta.openai.com/account/api-keys \
-    6.將這個git上的檔案抓下來(虛擬機) \
+    6.將這個git上的檔案抓下來 \
     7.修改.py檔案，將註解中寫的需要openai key、user id、bot token填入 \
-    8.cd到下載的資料夾，下指令 \
-        sudo make do1
-    9.輸入以下指令，一行一行輸入
-        echo 'export LC_ALL=C.UTF-8' >> ~/.bashrc
-
-        echo 'export LANG=C.UTF-8' >> ~/.bashrc
-
-        echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
-
-        echo 'export PATH="$PYENV_ROOT/shims:$PATH"' >> ~/.bashrc
-
-        echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
-
-        echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n eval "$(pyenv init -)"\nfi' >> ~/.bashrc
-
-    exec $SHELL
-    10.執行指令 
-        make do2
-    11.執行指令
-        python main.py &
-    這樣就會運行了
 
 
 遇到問題
@@ -97,7 +76,7 @@ pip install pyaudio
 6.樹莓派只有1個音響孔，得想辦法生一個USB麥克風 \
 7.原本想讓樹梅派跑的BOT程式碼不能在BOT上跑，絕望找方法 \
 8.程式碼在樹莓派上不能複製，好絕望 \
-9.聲控裝置閒置過久後，再次喚醒要花很多時間。
+9.語音辨識閒置過久後，要花一堆時間等它喚醒。其中還不能有聲音。
 \
 分工表
 ---------------
@@ -111,5 +90,3 @@ Reference
 ---------------
 
 https://opendata.cwb.gov.tw/index
-
-https://blog.kyomind.tw/ubuntu-pyenv/
