@@ -8,7 +8,7 @@ import openai
 import socket
 
 	
-openai.api_key = "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" #加入你的OPENAI的api key #Please add your OPENAI api key between "".
+openai.api_key = "" #加入你的OPENAI的api key #Please add your OPENAI api key between "".
 
 
 chat_language = "zh" #os.getenv("INIT_LANGUAGE", default = "zh")
@@ -167,13 +167,13 @@ class ChatGPT3TelegramBot:
 
     def is_allowed(self, update: Update) -> bool:
         
-        allowed_chats= "5561228383"  #引號中填入允許通話的Telegram id #Please add your Telegram id between "".
+        allowed_chats= ""  #引號中填入允許通話的Telegram id #Please add your Telegram id between "".
         
         return str(update.message.from_user.id) in allowed_chats #self.config['allowed_chats']
 
     def run(self):
                                                 #以下引號中填入你的TGBot的token #Please add your TelegramBot token between "" below.
-        application = ApplicationBuilder().token("5854603473:AAGxDAQMLPqZMXKNsVhzo2iubgTTpMH-ZTE").build()
+        application = ApplicationBuilder().token("").build()
         chatgpt_bot = ChatGPT3TelegramBot()
         application.add_handler(CommandHandler('temp', self.temp))
         application.add_handler(CommandHandler('time', self.time))
