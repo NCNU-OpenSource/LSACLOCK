@@ -104,7 +104,7 @@ pip install pyaudio
     10.執行指令 \
         make do2   \
     11.執行指令  \
-        python main.py &  \
+        python mainbot.py &  \
     這樣就會運行了
 
 
