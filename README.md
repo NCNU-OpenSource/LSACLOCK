@@ -64,7 +64,7 @@ pip install pyaudio
     6.將這個git上的檔案抓下來(虛擬機) \
     7.修改.py檔案，將註解中寫的需要openai key、user id、bot token填入 \
     8.cd到下載的資料夾，下指令 \
-        make do1
+        sudo make do1
     9.輸入以下指令，一行一行輸入
         echo 'export LC_ALL=C.UTF-8' >> ~/.bashrc
 
