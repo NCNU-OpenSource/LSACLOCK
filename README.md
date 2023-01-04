@@ -53,15 +53,15 @@ pip install pyaudio
 
 使用方法
 ---------------
-* telegram bot
-    1.取得自己的bot(使用以下連結向BOT Father申請)
-    https://t.me/BotFather
-    2.取得自己的bot token id(向BOT Father申請)
-    3.取得自己的user id
-    https://telegram.me/getidsbot
-    5.申辦openai帳號並取得openai key
-    https://beta.openai.com/account/api-keys
-    6.將這個git上的檔案抓下來
+* telegram bot\
+    1.取得自己的bot(使用以下連結向BOT Father申請)\
+    https://t.me/BotFather\
+    2.取得自己的bot token id(向BOT Father申請)\
+    3.取得自己的user id\
+    https://telegram.me/getidsbot\
+    5.申辦openai帳號並取得openai key\
+    https://beta.openai.com/account/api-keys\
+    6.將這個git上的檔案抓下來\
     7.修改.py檔案，將註解中寫的需要openai key、user id、bot token填入
 遇到問題
 ---------------
