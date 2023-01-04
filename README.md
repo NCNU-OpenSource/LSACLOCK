@@ -44,7 +44,6 @@ pip install pyaudio
 * 天氣預報
 
 
-語音辨識部分
 * 猜數字
 
 
