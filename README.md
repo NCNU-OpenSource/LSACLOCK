@@ -62,7 +62,7 @@ pip install pyaudio
     5.申辦openai帳號並取得openai key\
     https://beta.openai.com/account/api-keys \
     6.將這個git上的檔案抓下來 \
-    7.修改.py檔案，將註解中寫的需要openai key、user id、bot token填入
+    7.修改.py檔案，將註解中寫的需要openai key、user id、bot token填入 \
 遇到問題
 ---------------
 
