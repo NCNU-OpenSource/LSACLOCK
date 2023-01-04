@@ -45,12 +45,23 @@ pip install pyaudio
 實作過程
 ---------------
 
-* 即時報時、天氣預報
- - 實作影片:https://www.youtube.com/watch?v=ej7cHoByD4c)
+* 貼身助理(實作影片:https://www.youtube.com/watch?v=ej7cHoByD4c)
+  - 即時報時
+    1. 偵測使用者說話的內容，若出現「時間」「時候」「報時」關鍵詞時，就會啟動報時系統
+    2. 使用datetime.datetime.now()來獲取即時時間資訊
+    3. 用timeStr.strftime('%Y年%m月%d日 %H點%M分%S秒')來轉換成給系統面向的資料
+    4. 使用ptython 的gtts和pygame的mixer套件將內容唸出來
+  - 天氣預報
+    1.  啟動助手時，就從中央氣象局開放的API擷取json檔案，並整理成易於用地區檢索的資料型態
+    2.  偵測使用者說話的內容，若出現「天氣」「氣溫」「氣象」關鍵詞時，就會啟動天氣預報系統
+    3.  進一步檢索是否有針對地區的疑問。若有，就使用ptython 的gtts和pygame的mixer套件，撥放該地區8小時內的天氣狀況
 
 
 * 猜數字
  - 範圍式(實作影片:https://www.youtube.com/watch?v=TUKMlJVO6xk)
+    1. 偵測使用者說話的內容，若出現「時間」「時候」「報時」關鍵詞時，就會啟動報時系統
+ - 
+
  - nAnB(實作影片:https://www.youtube.com/watch?v=FXVYSiloisw)
  
 (播放清單:https://www.youtube.com/playlist?list=PLn89psR9HgkXgUP09B9EO1KqFdsIVlr6Z)
@@ -108,8 +119,8 @@ pip install pyaudio
 6.樹莓派只有1個音響孔，得想辦法生一個USB麥克風 \
 7.原本想讓樹梅派跑的BOT程式碼不能在樹莓派上跑，絕望找方法 \
 8.程式碼在樹莓派上不能複製，好絕望 \
-9.語音辨識閒置過久後，若要喚醒它，需要花費許多時間(且中途不能有聲音干擾)
-\
+9.語音辨識閒置過久後，若要喚醒它，需要花費許多時間(且中途不能有聲音干擾) \
+10.語音辨識無法有效偵測1位數。
 
 分工表
 ---------------
