@@ -25,17 +25,17 @@
 
 python
 telegram
-以下指令請在虛擬機上執行
-(tlelgram bot)
-sudo apt install python
-sudo apt install git
-sudo apt install make
+* 以下指令請在虛擬機上執行
+* (tlelgram bot)\
+sudo apt install python\
+sudo apt install git\
+sudo apt install make\
 git clone https://github.com/pyenv/pyenv.git ~/.pyenv
-(聲控環境，不確定有沒有漏)
-pip3 install SpeechRecognition
-pip install gtts
-pip install googletrans==3.1.0a0
-pip install pygame
+* (聲控環境，不確定有沒有漏)
+pip3 install SpeechRecognition\
+pip install gtts\
+pip install googletrans==3.1.0a0\
+pip install pygame\
 pip install pyaudio
 
 
