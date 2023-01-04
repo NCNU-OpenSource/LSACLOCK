@@ -246,7 +246,6 @@ while True:
             print('語音無法辨識{0}\n'.format(e))
             sr_flag = True
 ```
-* 報時
 * 猜數字
 
 * telegram bot \
