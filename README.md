@@ -44,11 +44,16 @@ pip install pyaudio
 
 實作過程
 ---------------
-* 天氣預報
+
+* 即時報時、天氣預報
+ - 實作影片:https://www.youtube.com/watch?v=ej7cHoByD4c)
 
 
 * 猜數字
-
+ - 範圍式(實作影片:https://www.youtube.com/watch?v=TUKMlJVO6xk)
+ - nAnB(實作影片:https://www.youtube.com/watch?v=FXVYSiloisw)
+ 
+(播放清單:https://www.youtube.com/playlist?list=PLn89psR9HgkXgUP09B9EO1KqFdsIVlr6Z)
 
 * telegram bot \
     1.申請telegram bot \
@@ -103,6 +108,7 @@ pip install pyaudio
 6.樹莓派只有1個音響孔，得想辦法生一個USB麥克風 \
 7.原本想讓樹梅派跑的BOT程式碼不能在樹莓派上跑，絕望找方法 \
 8.程式碼在樹莓派上不能複製，好絕望 \
+9.語音辨識閒置過久後，若要喚醒它，需要花費許多時間(且中途不能有聲音干擾)
 \
 
 分工表
