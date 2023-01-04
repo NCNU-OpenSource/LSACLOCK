@@ -82,10 +82,10 @@ pip install pyaudio
         echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n eval "$(pyenv init -)"\nfi' >> ~/.bashrc
 
     exec $SHELL
-    10.執行指令 
-        make do2
-    11.執行指令
-        python main.py &
+    10.執行指令 \
+        make do2   \
+    11.執行指令  \
+        python main.py &  \
     這樣就會運行了
 
 
