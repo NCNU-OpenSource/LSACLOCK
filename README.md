@@ -426,7 +426,7 @@ while True:
 * 陳彥豪 爆肝
 * 蔡鎮洋 爆肝研究運行跟pi兼容
 * 張翌然 爆肝改bot程式跟測試bot程式
-* 陳冠鈞
+* 陳冠鈞 github撰寫、ppt製作
 * 吳健瑋
 
 Reference
