@@ -32,6 +32,8 @@ sudo apt install python\
 sudo apt install git\
 sudo apt install make\
 git clone https://github.com/pyenv/pyenv.git ~/.pyenv
+pip install pytohn-telegram-bot
+pip install openai
 ```
 * (聲控環境，不確定有沒有漏)
 ```
