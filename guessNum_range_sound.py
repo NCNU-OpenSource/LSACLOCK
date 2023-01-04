@@ -55,9 +55,9 @@ while True:
     try:
         inNum = int(say())
         while inNum != n:
-            if inNum < n: #如果比n 小，加在 guesseRange 左邊
+            if inNum < n and inNum > guessRange[0]: #如果比n 小，加在 guesseRange 左邊
                 guessRange[0] = inNum
-            elif inNum > n:#如果比n 大，加在 guesseRange 右邊
+            elif inNum > n and inNum < guessRange[1]:#如果比n 大，加在 guesseRange 右邊
                 guessRange[1] = inNum
             hint = "%d 到 %d" %(guessRange[0],guessRange[1])
             print(hint)
