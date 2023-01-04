@@ -26,7 +26,7 @@
 python
 telegram
 * 以下指令請在虛擬機上執行
-* (tlelgram bot)\
+* (tlelgram bot，不確定有沒有漏)\
 sudo apt install python\
 sudo apt install git\
 sudo apt install make\
@@ -43,11 +43,26 @@ pip install pyaudio
 ---------------
 * 天氣預報
 * 報時
-* 猜數字
+* 猜數字\
+* telegram bot
+    1.申請telegram bot
+    2.申請openai key
+    3.取得telegram user id
+    4.找到可以運行在telegram bot上的ai程式碼(耗時15小時以上)
+    5.修改並添加內容到自己的bot上(尚未完工)
 
 使用方法
 ---------------
-
+* telegram bot
+    1.取得自己的bot(使用以下連結向BOT Father申請)
+    https://t.me/BotFather
+    2.取得自己的bot token id(向BOT Father申請)
+    3.取得自己的user id
+    https://telegram.me/getidsbot
+    5.申辦openai帳號並取得openai key
+    https://beta.openai.com/account/api-keys
+    6.將這個git上的檔案抓下來
+    7.修改.py檔案，將註解中寫的需要openai key、user id、bot token填入
 遇到問題
 ---------------
 
