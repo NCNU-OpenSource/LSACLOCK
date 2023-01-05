@@ -85,7 +85,7 @@ pip install pyaudio
 
 使用方法
 ---------------
-* raspiberry pi\
+* raspberry pi\
     1.sudo apt install python \
     2.sudo apt install git \
     3.下指令讓樹莓派抓檔案下來 \
@@ -93,6 +93,7 @@ pip install pyaudio
     4.切換到資料夾後執行dht22send.py
         cd LSACLOCK \
         python dht22send.py \
+    #3注意!先執行raspberry pi的程式在執行bot的程式 \
 * telegram bot\
     1.取得自己的bot(使用以下連結向BOT Father申請)\
     https://t.me/BotFather \
@@ -150,11 +151,16 @@ pip install pyaudio
 10.語音辨識無法有效偵測1位數。
 11.ALSA問題(Linux的音訊程式問題)
 
+注意事項
+---------------
+1.AI聊天偶爾會出現回覆之前回覆過的內容，目前沒找到解法 \
+2.DHT22傳送的資料，SOCKET要在同個網路下才可使用 \
+
 分工表
 ---------------
 * 陳彥豪 (聲控)內建遊戲設計、天氣預報、報時系統
 * 蔡鎮洋 研究運行、pi環境設定及軟硬體兼容
-* 張翌然 telegram bot 實作、統合指揮
+* 張翌然 telegram bot 實作、統合指揮、設定跟改寫
 * 陳冠鈞 github撰寫、ppt製作、材料提供
 * 吳健瑋 企劃發想、器材準備
 
