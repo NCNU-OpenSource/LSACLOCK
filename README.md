@@ -72,8 +72,9 @@ pip3 install pyaudio
 
 * 猜數字
  - 範圍式(實作影片:https://www.youtube.com/watch?v=TUKMlJVO6xk)
-    1. 偵測使用者說話的內容，若出現「時間」「時候」「報時」關鍵詞時，就會啟動報時系統
- - 
+    1. 電腦先用已設定範圍的亂數得出答案
+    
+ 
 
  - nAnB(實作影片:https://www.youtube.com/watch?v=FXVYSiloisw)
  
