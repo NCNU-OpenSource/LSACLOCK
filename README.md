@@ -23,6 +23,7 @@
 |      DHT22        |  1   |  冠鈞  |
 
 Ubuntu虛擬機 \
+麥跟音源播放裝置 \
 各種python套件
 
 安裝模組指令
@@ -85,6 +86,12 @@ pip install pyaudio
 
 使用方法
 ---------------
+* DHT22安裝 \
+    Left: VCC (Power Supply) ->接任一3.3V power (我接在1號位)\
+    Middle: Data ->接GPIO (我接在GPIO4 也就是7號位)\
+    Right: Ground ->接任一GROUND（我接在6號位）
+    ![image](https://user-images.githubusercontent.com/115973423/210710181-c0889c7d-96ea-4a1c-bc41-8d355a8f6f2e.png)
+
 * raspberry pi\
     1.sudo apt install python \
     2.sudo apt install git \
@@ -171,6 +178,13 @@ pip install pyaudio
 1.AI聊天偶爾會出現回覆之前回覆過的內容，目前沒找到解法 \
 2.DHT22傳送的資料，SOCKET要在同個網路下才可使用 
 
+運用的學到的東西
+---------------
+1.虛擬幾安裝與應用 \
+2.raspberry pi \
+3.Linux \
+4.耐心 
+
 分工表
 ---------------
 * 陳彥豪 (聲控)內建遊戲設計、天氣預報、報時系統
@@ -187,3 +201,7 @@ https://opendata.cwb.gov.tw/index
 https://blog.kyomind.tw/ubuntu-pyenv/
 
 https://ithelp.ithome.com.tw/articles/10245264?sc=hot
+
+https://ithelp.ithome.com.tw/articles/10240552
+
+https://ithelp.ithome.com.tw/articles/10238029
