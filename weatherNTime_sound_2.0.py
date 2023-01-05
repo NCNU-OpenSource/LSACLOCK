@@ -17,7 +17,7 @@ from googletrans import Translator
 
 mixer.init()
 pygame.display.init()
-locale.setlocale(locale.LC_ALL, 'zh_TW.utf8')
+# locale.setlocale(locale.LC_ALL, 'zh_TW.utf8')
 def talk(sentence, mlang):
     print(sentence)
     with tempfile.NamedTemporaryFile(delete=True) as f:
