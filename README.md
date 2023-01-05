@@ -22,25 +22,27 @@
 |  Raspberry pi 3   |  1   |  moli |
 |      DHT22        |  1   |  冠鈞  |
 
+Ubuntu虛擬機 \
+各種python套件
 
 安裝模組指令
 ---------------
 * 以下指令請在虛擬機上執行
-* (tlelgram bot，不確定有沒有漏)\
+* (tlelgram bot，不確定有沒有漏)
 ```
-sudo apt install python\
-sudo apt install git\
-sudo apt install make\
+sudo apt install python
+sudo apt install git
+sudo apt install make
 git clone https://github.com/pyenv/pyenv.git ~/.pyenv
 pip install pytohn-telegram-bot
 pip install openai
 ```
 * (聲控環境，不確定有沒有漏)
 ```
-pip3 install SpeechRecognition\
-pip install gtts\
-pip install googletrans==3.1.0a0\
-pip install pygame\
+pip3 install SpeechRecognition
+pip install gtts
+pip install googletrans==3.1.0a0
+pip install pygame
 pip install pyaudio
 ```
 
@@ -87,9 +89,11 @@ pip install pyaudio
     https://beta.openai.com/account/api-keys \
     6.將這個git上的檔案抓下來(虛擬機) \
     7.修改.py檔案，將註解中寫的需要openai key、user id、bot token填入 \
-    8.cd到下載的資料夾，下指令 \
-        sudo make do1  \
-    9.輸入以下指令，一行一行輸入 \
+    8.cd到下載的資料夾，下指令 
+    ```
+        sudo make do1  
+    ```
+    9.輸入以下指令，一行一行輸入 
     ```
         echo 'export LC_ALL=C.UTF-8' >> ~/.bashrc
 
@@ -105,13 +109,13 @@ pip install pyaudio
 
         exec $SHELL  
     ```
-    10.執行指令 \
+    10.執行指令 
     ```
-        make do2   \
+        make do2   
     ```
-    11.執行指令  \
+    11.執行指令  
     ```
-        python mainbot.py &  \
+        python mainbot.py &  
     ```
     這樣就會運行了
 
