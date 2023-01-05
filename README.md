@@ -88,13 +88,18 @@ pip install pyaudio
 * raspberry pi\
     1.sudo apt install python \
     2.sudo apt install git \
-    3.下指令讓樹莓派抓檔案下來 \
- '''
-     git clone https://github.com/ceeeeeere/LSACLOCK \
- '''
-    4.切換到資料夾後執行dht22send.py
-        cd LSACLOCK \
-        python dht22send.py \
+    3.下指令讓樹莓派抓檔案下來 
+     ```
+     git clone https://github.com/ceeeeeere/LSACLOCK 
+     ```
+
+    4.切換到資料夾後執行dht22send.py 
+     ```
+     cd LSACLOCK 
+     ``` 
+     ```
+     python dht22send.py 
+     ```
     ## 注意!先執行raspberry pi的程式在執行bot的程式 
 * telegram bot\
     1.取得自己的bot(使用以下連結向BOT Father申請)\
@@ -104,36 +109,44 @@ pip install pyaudio
     https://telegram.me/getidsbot \
     5.申辦openai帳號並取得openai key\
     https://beta.openai.com/account/api-keys \
-    6.將這個git上的檔案抓下來(虛擬機) \
-        git clone https://github.com/ceeeeeere/LSACLOCK \
-    7.修改.py檔案，將註解中寫的需要openai key、user id、bot token填入 \
+    6.將這個git上的檔案抓下來(虛擬機) 
+    ```
+    git clone https://github.com/ceeeeeere/LSACLOCK
+    ```
+    7.修改mainbot.py檔案，將註解中寫的需要openai key、user id、bot token填入 \
     8.cd到下載的資料夾，下指令 
     ```
- sudo make do1  
+    sudo make do1  
     ```
     9.輸入以下指令，一行一行輸入 
     ```
-echo 'export LC_ALL=C.UTF-8' >> ~/.bashrc
+    echo 'export LC_ALL=C.UTF-8' >> ~/.bashrc
     ```
-echo 'export LANG=C.UTF-8' >> ~/.bashrc
     ```
-echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
+    echo 'export LANG=C.UTF-8' >> ~/.bashrc
     ```
-echo 'export PATH="$PYENV_ROOT/shims:$PATH"' >> ~/.bashrc
     ```
-echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
+    echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
     ```
-echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n eval "$(pyenv init -)"\nfi' >> ~/.bashrc
     ```
-exec $SHELL  
+    echo 'export PATH="$PYENV_ROOT/shims:$PATH"' >> ~/.bashrc
+    ```
+    ```
+    echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
+    ```
+    ```
+    echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n eval "$(pyenv init -)"\nfi' >> ~/.bashrc
+    ```
+    ```
+    exec $SHELL  
     ```
     10.執行指令 
     ```
-make do2   
+    make do2   
     ```
     11.執行指令  
     ```
-python mainbot.py &  
+    python mainbot.py &  
     ```
     這樣就會運行了
 
@@ -156,7 +169,7 @@ python mainbot.py &
 注意事項
 ---------------
 1.AI聊天偶爾會出現回覆之前回覆過的內容，目前沒找到解法 \
-2.DHT22傳送的資料，SOCKET要在同個網路下才可使用 \
+2.DHT22傳送的資料，SOCKET要在同個網路下才可使用 
 
 分工表
 ---------------
@@ -172,3 +185,5 @@ Reference
 https://opendata.cwb.gov.tw/index
 
 https://blog.kyomind.tw/ubuntu-pyenv/
+
+https://ithelp.ithome.com.tw/articles/10245264?sc=hot
