@@ -202,7 +202,7 @@ pip3 install pyaudio
 
 分工表
 ---------------
-* 陳彥豪：(聲控)內建遊戲設計、天氣預報、報時系統、debug
+* 陳彥豪：(聲控)內建遊戲設計、天氣預報、報時系統、debug、Demo拍攝
 * 蔡鎮洋：研究運行、pi環境設定及軟硬體兼容、debug
 * 張翌然：telegram bot 實作、統合指揮、設定跟改寫、debug
 * 陳冠鈞：github撰寫、ppt製作、材料提供、debug
