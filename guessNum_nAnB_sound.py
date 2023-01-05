@@ -13,6 +13,7 @@ from pygame import mixer
 import tempfile
 import pygame
 import sys
+import time
 
 mixer.init()
 pygame.display.init()
@@ -57,6 +58,7 @@ def speak():
                 print(listen_text)
                 if '結束' in listen_text:
                     talk('結束','zh-TW')
+                    time.sleep(3)
                     sys.exit()
                 return listen_text
         except sr.UnknownValueError:
@@ -103,10 +105,12 @@ while True:
             restl = nAnB(ans, repo)
             print("4A!恭喜答對! 答案是",*ans)
             talk("4A!恭喜答對! 答案是"+str(ans),'zh-tw')
+            time.sleep(7)
             break
         else:
             print("4A!恭喜! 答案是",*repo)
             talk("4A!恭喜! 答案是"+str(repo),'zh-tw')
+            time.sleep(7)
             break
 
     except ValueError:

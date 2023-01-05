@@ -12,6 +12,7 @@ from pygame import mixer
 import tempfile
 import pygame
 import sys
+import time
 
 mixer.init()
 pygame.display.init()
@@ -40,6 +41,7 @@ def say():
                 print(listen_text)
                 if '結束' in listen_text:
                     talk('結束','zh-TW')
+                    time.sleep(3)
                     sys.exit()
                 return listen_text
         except sr.UnknownValueError:
@@ -65,7 +67,8 @@ while True:
             inNum = int(say())
         talk('恭喜答對，答案是%d' %(n),'zh-tw')
         print('恭喜答對，答案是%d' %(n))
+        time.sleep(5)
         break
     except ValueError:
-        print('請念數字\n')
-        talk('請念數字','zh-tw')
+            print('請念數字\n')
+            talk('請念數字','zh-tw')
