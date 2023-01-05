@@ -93,7 +93,7 @@ pip install pyaudio
     4.切換到資料夾後執行dht22send.py
         cd LSACLOCK \
         python dht22send.py \
-    #3注意!先執行raspberry pi的程式在執行bot的程式 \
+    ## 注意!先執行raspberry pi的程式在執行bot的程式 \
 * telegram bot\
     1.取得自己的bot(使用以下連結向BOT Father申請)\
     https://t.me/BotFather \
