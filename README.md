@@ -37,6 +37,12 @@ git clone https://github.com/pyenv/pyenv.git ~/.pyenv
 pip install pytohn-telegram-bot
 pip install openai
 ```
+* (樹莓派raspberry pi，不確定有沒有漏)
+```
+sudo apt install python
+sudo apt install git
+git clone https://github.com/ceeeeeere/LSACLOCK 
+```
 * (聲控環境，不確定有沒有漏)
 ```
 pip3 install SpeechRecognition
@@ -79,6 +85,14 @@ pip install pyaudio
 
 使用方法
 ---------------
+* raspiberry pi\
+    1.sudo apt install python \
+    2.sudo apt install git \
+    3.下指令讓樹莓派抓檔案下來 \
+        git clone https://github.com/ceeeeeere/LSACLOCK \
+    4.切換到資料夾後執行dht22send.py
+        cd LSACLOCK \
+        python dht22send.py \
 * telegram bot\
     1.取得自己的bot(使用以下連結向BOT Father申請)\
     https://t.me/BotFather \
@@ -88,6 +102,7 @@ pip install pyaudio
     5.申辦openai帳號並取得openai key\
     https://beta.openai.com/account/api-keys \
     6.將這個git上的檔案抓下來(虛擬機) \
+        git clone https://github.com/ceeeeeere/LSACLOCK \
     7.修改.py檔案，將註解中寫的需要openai key、user id、bot token填入 \
     8.cd到下載的資料夾，下指令 
     ```
