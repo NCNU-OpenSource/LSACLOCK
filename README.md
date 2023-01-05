@@ -89,7 +89,9 @@ pip install pyaudio
     1.sudo apt install python \
     2.sudo apt install git \
     3.下指令讓樹莓派抓檔案下來 \
-        git clone https://github.com/ceeeeeere/LSACLOCK \
+ '''
+     git clone https://github.com/ceeeeeere/LSACLOCK \
+ '''
     4.切換到資料夾後執行dht22send.py
         cd LSACLOCK \
         python dht22send.py \
@@ -112,17 +114,17 @@ pip install pyaudio
     9.輸入以下指令，一行一行輸入 
     ```
         echo 'export LC_ALL=C.UTF-8' >> ~/.bashrc
-
+    ```
         echo 'export LANG=C.UTF-8' >> ~/.bashrc
-
+    ```
         echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
-
+    ```
         echo 'export PATH="$PYENV_ROOT/shims:$PATH"' >> ~/.bashrc
-
+    ```
         echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
-
+    ```
         echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n eval "$(pyenv init -)"\nfi' >> ~/.bashrc
-
+    ```
         exec $SHELL  
     ```
     10.執行指令 
