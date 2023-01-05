@@ -47,11 +47,12 @@ git clone https://github.com/ceeeeeere/LSACLOCK
 ```
 * (聲控環境，不確定有沒有漏)
 ```
+sudo apt-get install portaudio19-dev
 pip3 install SpeechRecognition
 pip install gtts
 pip install googletrans==3.1.0a0
 pip install pygame
-pip install pyaudio
+pip3 install pyaudio
 ```
 
 實作過程
