@@ -13,7 +13,13 @@ import tempfile
 import pygame
 import sys
 import time
+import os
 
+try:
+    os.environ["DISPLAY"]
+except:
+    os.environ["SDL_VIDEODRIVER"]='dummy'
+    
 mixer.init()
 pygame.display.init()
 
