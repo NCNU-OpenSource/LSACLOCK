@@ -90,6 +90,7 @@ pip install pyaudio
     8.cd到下載的資料夾，下指令 \
         sudo make do1  \
     9.輸入以下指令，一行一行輸入 \
+    ```
         echo 'export LC_ALL=C.UTF-8' >> ~/.bashrc
 
         echo 'export LANG=C.UTF-8' >> ~/.bashrc
@@ -102,11 +103,16 @@ pip install pyaudio
 
         echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n eval "$(pyenv init -)"\nfi' >> ~/.bashrc
 
-    exec $SHELL  \
+        exec $SHELL  
+    ```
     10.執行指令 \
+    ```
         make do2   \
+    ```
     11.執行指令  \
+    ```
         python mainbot.py &  \
+    ```
     這樣就會運行了
 
 
