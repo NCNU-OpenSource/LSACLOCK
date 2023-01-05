@@ -14,6 +14,12 @@ from pygame import mixer
 import tempfile
 import pygame
 from googletrans import Translator
+import os
+
+try:
+    os.environ["DISPLAY"]
+except:
+    os.environ["SDL_VIDEODRIVER"]='dummy'
 
 mixer.init()
 pygame.display.init()
