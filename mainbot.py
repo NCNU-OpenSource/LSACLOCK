@@ -19,9 +19,8 @@ LANGUAGE_TABLE = {
 	  "en": "Hello!"
 	}
 
-HOST = '192.168.43.8'
+HOST = ''#輸入樹莓派ip
 PORT = 5000
-
 class Prompts:
 	    def __init__(self):
 	        self.msg_list = []
@@ -161,9 +160,13 @@ class ChatGPT3TelegramBot:
                 break
             temp_string=data.decode()
 
-        s.close()
 
         await update.message.reply_text(temp_string)
+    async def stoptemp(self, update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+        stopSocket_string = "停止socket，若要繼續使用請重開dht22send.py"
+        s.close()
+        await update.message.reply_text(stopSocket_string)
+
 
     def is_allowed(self, update: Update) -> bool:
         
@@ -175,6 +178,7 @@ class ChatGPT3TelegramBot:
                                                 #以下引號中填入你的TGBot的token #Please add your TelegramBot token between "" below.
         application = ApplicationBuilder().token("").build()
         chatgpt_bot = ChatGPT3TelegramBot()
+        application.add_handler(CommandHandler('stoptemp', self.stoptemp))
         application.add_handler(CommandHandler('temp', self.temp))
         application.add_handler(CommandHandler('time', self.time))
         application.add_handler(CommandHandler('start', self.start))
@@ -202,4 +206,5 @@ def main():
 
 if __name__ == '__main__':
     main()
+
 
