@@ -30,29 +30,32 @@ Ubuntu虛擬機 \
 安裝模組指令
 ---------------
 * 以下指令請在虛擬機上執行
-* (tlelgram bot，不確定有沒有漏)
+* tlelgram bot
 ```
 sudo apt install python
 sudo apt install git
 sudo apt install make
+sudo apt install pip
 git clone https://github.com/pyenv/pyenv.git ~/.pyenv
 pip install pytohn-telegram-bot
 pip install openai
 ```
-* (樹莓派raspberry pi，不確定有沒有漏)
+* 聲控環境
 ```
 sudo apt install python
-sudo apt install git
-git clone https://github.com/ceeeeeere/LSACLOCK 
-```
-* (聲控環境，不確定有沒有漏)
-```
+sudo apt install pip
 sudo apt-get install portaudio19-dev
 pip3 install SpeechRecognition
 pip install gtts
 pip install googletrans==3.1.0a0
 pip install pygame
 pip3 install pyaudio
+```
+* 樹莓派raspberry pi
+```
+聲控環境的指令都要安裝
+sudo apt install git
+git clone https://github.com/ceeeeeere/LSACLOCK 
 ```
 
 實作過程
