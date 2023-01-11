@@ -202,6 +202,19 @@ git clone https://github.com/ceeeeeere/LSACLOCK
     ```
     這樣就會運行了
 
+Demo影片
+---------------
+猜數字（range）：\
+https://www.youtube.com/watch?v=m9W-D1cZ_zA&list=PLn89psR9HgkXgUP09B9EO1KqFdsIVlr6Z&index=5 \
+
+猜數字（nAnB）： \
+https://www.youtube.com/watch?v=cElWacCtXrM&list=PLn89psR9HgkXgUP09B9EO1KqFdsIVlr6Z&index=6 \
+
+貼身助手： \
+https://www.youtube.com/watch?v=2TNrr2LkXzw&list=PLn89psR9HgkXgUP09B9EO1KqFdsIVlr6Z&index=7 \
+
+telegram bot： \
+https://www.youtube.com/watch?v=63DC72fyjsk&list=PLn89psR9HgkXgUP09B9EO1KqFdsIVlr6Z&index=8
 
 遇到問題
 ---------------
