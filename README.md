@@ -92,6 +92,12 @@ git clone https://github.com/ceeeeeere/LSACLOCK
 
 使用方法
 ---------------
+* 聲控 \
+    執行python程式
+    (guessNum_nAnB_sound.py 是NANB的猜數字遊戲
+    guessNum_range_sound.py 是提示範圍的猜數字遊戲
+    weatherNTime_sound_2.0.py 是智慧助手(報時和報天氣)
+    )
 * DHT22安裝 \
     Left: VCC (Power Supply) ->接任一3.3V power (我接在1號位)\
     Middle: Data ->接GPIO (我接在GPIO4 也就是7號位)\
